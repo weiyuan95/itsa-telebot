@@ -1,0 +1,20 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+requests = "*"
+python-dotenv = "*"
+apscheduler = "*"
+celery = "*"
+pika = "*"
+psycopg2-binary = "*"
+flask = "*"
+gunicorn = "*"
+rq = "*"
+
+[requires]
+python_version = "*"
